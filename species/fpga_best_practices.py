@@ -70,7 +70,7 @@ def run(topic: str = "all", brain_url: str = _BRAIN_BASE) -> dict:
 
     topic: "all" | "hdl" | "timing" | "clocking" | "simulation" |
            "synthesis" | "partitioning" | "reset"
-    brain_url: base URL of the Darwin-God-MCP brain (default: localhost:8765)
+    brain_url: base URL of the Darwin-MCP brain (default: localhost:8765)
     """
     if topic == "all":
         return {

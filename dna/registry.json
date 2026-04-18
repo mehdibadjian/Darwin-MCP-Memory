@@ -27,6 +27,32 @@
         "requirements": []
       },
       "version": 1
+    },
+    "leankg": {
+      "path": "/Users/pappi/Desktop/dev/mcp-evolution-core/memory/species/leankg.py",
+      "entry_point": "leankg",
+      "runtime": "python3",
+      "dependencies": [],
+      "evolved_at": "2026-04-18T15:00:00.000000Z",
+      "status": "active",
+      "parent_request": {
+        "name": "leankg_knowledge_graph_integration",
+        "requirements": []
+      },
+      "version": 1,
+      "mcp_tools": [
+        "leankg_impact_radius",
+        "leankg_file_dependencies",
+        "leankg_graph_metrics",
+        "leankg_index_status",
+        "leankg_find_callers",
+        "leankg_find_tests",
+        "leankg_file_info",
+        "leankg_web_ui",
+        "leankg_reindex",
+        "leankg_watch",
+        "leankg_query_graph"
+      ]
     }
   }
 }
