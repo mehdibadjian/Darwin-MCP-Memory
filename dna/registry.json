@@ -1,6 +1,6 @@
 {
   "organism_version": "1.0.0",
-  "last_mutation": "2026-04-18T14:46:43.823285Z",
+  "last_mutation": "2026-04-18T14:52:49.755163Z",
   "skills": {
     "nestjs_best_practices": {
       "path": "/Users/pappi/Desktop/dev/mcp-evolution-core/memory/species/nestjs_best_practices.py",
@@ -14,6 +14,19 @@
         "requirements": []
       },
       "version": 4
+    },
+    "fpga_best_practices": {
+      "path": "/Users/pappi/Desktop/dev/mcp-evolution-core/memory/species/fpga_best_practices.py",
+      "entry_point": "fpga_best_practices",
+      "runtime": "python3",
+      "dependencies": [],
+      "evolved_at": "2026-04-18T14:52:49.755163Z",
+      "status": "active",
+      "parent_request": {
+        "name": "fpga_best_practices",
+        "requirements": []
+      },
+      "version": 1
     }
   }
 }
