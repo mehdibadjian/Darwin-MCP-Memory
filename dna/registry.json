@@ -53,6 +53,16 @@
         "leankg_watch",
         "leankg_query_graph"
       ]
+    },
+    "get_droplet_vitals": {
+      "path": "brain/engine/vitals.py",
+      "entry_point": "get_droplet_vitals",
+      "runtime": "builtin",
+      "dependencies": [
+        "psutil"
+      ],
+      "status": "active",
+      "description": "Returns Droplet CPU, RAM, disk vitals and last 10 evolution log lines"
     }
   }
 }
