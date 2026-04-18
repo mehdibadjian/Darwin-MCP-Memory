@@ -1,14 +1,19 @@
 {
   "organism_version": "1.0.0",
-  "last_mutation": "2026-04-18T14:26:58.866521Z",
+  "last_mutation": "2026-04-18T14:28:16.966501Z",
   "skills": {
     "text_stats": {
       "path": "/Users/pappi/Desktop/dev/mcp-evolution-core/memory/species/text_stats.py",
       "entry_point": "text_stats",
       "runtime": "python3",
       "dependencies": [],
-      "evolved_at": null,
-      "status": "active"
+      "evolved_at": "2026-04-18T14:28:16.966501Z",
+      "status": "active",
+      "parent_request": {
+        "name": "text_stats",
+        "requirements": []
+      },
+      "version": 1
     }
   }
 }
