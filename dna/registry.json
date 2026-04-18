@@ -1,5 +1,14 @@
 {
   "organism_version": "1.0.0",
-  "last_mutation": null,
-  "skills": {}
+  "last_mutation": "2026-04-18T14:26:04.838047Z",
+  "skills": {
+    "text_stats": {
+      "path": "/Users/pappi/Desktop/dev/mcp-evolution-core/memory/species/text_stats.py",
+      "entry_point": "text_stats",
+      "runtime": "python3",
+      "dependencies": [],
+      "evolved_at": null,
+      "status": "active"
+    }
+  }
 }
