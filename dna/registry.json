@@ -1,19 +1,19 @@
 {
   "organism_version": "1.0.0",
-  "last_mutation": "2026-04-18T14:37:45.356734Z",
+  "last_mutation": "2026-04-18T14:42:59.692429Z",
   "skills": {
     "nestjs_best_practices": {
       "path": "/Users/pappi/Desktop/dev/mcp-evolution-core/memory/species/nestjs_best_practices.py",
       "entry_point": "nestjs_best_practices",
       "runtime": "python3",
       "dependencies": [],
-      "evolved_at": "2026-04-18T14:37:45.356734Z",
+      "evolved_at": "2026-04-18T14:42:59.692429Z",
       "status": "active",
       "parent_request": {
         "name": "nestjs_best_practices",
         "requirements": []
       },
-      "version": 2
+      "version": 3
     }
   }
 }
