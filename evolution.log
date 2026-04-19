@@ -1,1 +1,38 @@
 2026-04-19T07:55:23Z [INFO] Darwin-MCP evolution log initialised
+2026-04-19 15:59:14,658 [INFO] __main__: Darwin Heartbeat starting — interval=30s CPU idle threshold=40% auto_approve=True continuous=True max_species=100
+2026-04-19 15:59:19,698 [INFO] __main__: No code in payload for 'python_security_scanner' — generated scaffold (AUTO_APPROVE=True)
+2026-04-19 16:00:50,108 [INFO] __main__: Darwin Heartbeat starting — interval=30s CPU idle threshold=40% auto_approve=True continuous=True max_species=100
+2026-04-19 16:00:51,128 [INFO] __main__: Beat #4 OK | cpu=6.8% anomalies=0 dispatched=0 prune=False
+2026-04-19 16:01:26,169 [INFO] __main__: No code in payload for 'python_security_scanner' — generated scaffold (AUTO_APPROVE=True)
+2026-04-19 16:01:28,075 [ERROR] root: Rebuild failed for python_security_scanner:   error: subprocess-exited-with-error
+  
+  × Getting requirements to build wheel did not run successfully.
+  │ exit code: 1
+  ╰─> [19 lines of output]
+      Traceback (most recent call last):
+        File "/Users/pappi/.pyenv/versions/3.9.9/lib/python3.9/site-packages/pip/_vendor/pyproject_hooks/_in_process/_in_process.py", line 389, in <module>
+          main()
+        File "/Users/pappi/.pyenv/versions/3.9.9/lib/python3.9/site-packages/pip/_vendor/pyproject_hooks/_in_process/_in_process.py", line 373, in main
+          json_out["return_val"] = hook(**hook_input["kwargs"])
+        File "/Users/pappi/.pyenv/versions/3.9.9/lib/python3.9/site-packages/pip/_vendor/pyproject_hooks/_in_process/_in_process.py", line 143, in get_requires_for_build_wheel
+          return hook(config_settings)
+        File "/private/var/folders/wx/n8bw917d58x8wznnyynzn8tm0000gn/T/pip-build-env-60efdvfv/overlay/lib/python3.9/site-packages/setuptools/build_meta.py", line 333, in get_requires_for_build_wheel
+          return self._get_build_requires(config_settings, requirements=[])
+        File "/private/var/folders/wx/n8bw917d58x8wznnyynzn8tm0000gn/T/pip-build-env-60efdvfv/overlay/lib/python3.9/site-packages/setuptools/build_meta.py", line 301, in _get_build_requires
+          self.run_setup()
+        File "/private/var/folders/wx/n8bw917d58x8wznnyynzn8tm0000gn/T/pip-build-env-60efdvfv/overlay/lib/python3.9/site-packages/setuptools/build_meta.py", line 520, in run_setup
+          super().run_setup(setup_script=setup_script)
+        File "/private/var/folders/wx/n8bw917d58x8wznnyynzn8tm0000gn/T/pip-build-env-60efdvfv/overlay/lib/python3.9/site-packages/setuptools/build_meta.py", line 317, in run_setup
+          exec(code, locals())
+        File "<string>", line 6, in <module>
+        File "/Users/pappi/.pyenv/versions/3.9.9/lib/python3.9/codecs.py", line 905, in open
+          file = builtins.open(filename, mode, buffering)
+      FileNotFoundError: [Errno 2] No such file or directory: '/private/var/folders/wx/n8bw917d58x8wznnyynzn8tm0000gn/T/pip-install-2b4akc92/ast_6fc3f3f9f16a4cdd8cc6f90ca9f00981/AST/README'
+      [end of output]
+  
+  note: This error originates from a subprocess, and is likely not a problem with pip.
+
+[notice] A new release of pip is available: 25.3 -> 26.0.1
+[notice] To update, run: pip install --upgrade pip
+ERROR: Failed to build 'ast' when getting requirements to build wheel
+

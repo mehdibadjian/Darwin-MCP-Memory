@@ -13,9 +13,9 @@
         ]
       },
       "priority": 2,
-      "status": "pending",
+      "status": "running",
       "created_at": "2026-04-19T07:43:55.011517+00:00",
-      "updated_at": "2026-04-19T07:43:55.011517+00:00",
+      "updated_at": "2026-04-19T08:01:26.158342+00:00",
       "error_count": 0,
       "last_error": null
     },
@@ -27,9 +27,9 @@
         "description": "A meta-agent that scans the species registry and enqueues missing utility tools (e.g., regex_helper, datetime_parser) whenever the backlog is empty."
       },
       "priority": 1,
-      "status": "running",
+      "status": "done",
       "created_at": "2026-04-19T07:53:42.220141+00:00",
-      "updated_at": "2026-04-19T07:59:04.242211+00:00",
+      "updated_at": "2026-04-19T07:59:07.627345+00:00",
       "error_count": 2,
       "last_error": "============================= test session starts ==============================\nplatform darwin -- Python 3.9.9, pytest-8.4.2, pluggy-1.6.0 -- /Users/pappi/.pyenv/versions/3.9.9/bin/python3\ncachedir: .pytest_cache\nrootdir: /var/folders/wx/n8bw917d58x8wznnyynzn8tm0000gn/T/pytest_recursive_scout_u7gqe1q1\nplugins: anyio-4.12.1, asyncio-1.2.0, cov-7.0.0\nasyncio: mode=strict, debug=False, asyncio_default_fixture_loop_scope=None, asyncio_default_test_loop_scope=function\ncollecting ... collected 0 ite"
     }
