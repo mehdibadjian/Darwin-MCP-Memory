@@ -288,6 +288,20 @@
       },
       "version": 1,
       "rebuild_error": "  error: subprocess-exited-with-error\n  \n  \u00d7 Getting requirements to build wheel did not run successfully.\n  \u2502 exit code: 1\n  \u2570\u2500> [19 lines of output]\n      Traceback (most recent call last):\n        File \"/Users/pappi/.pyenv/versions/3.9.9/lib/python3.9/site-packages/pip/_vendor/pyproject_hooks/_in_process/_in_process.py\", line 389, in <module>\n          main()\n        File \"/Users/pappi/.pyenv/versions/3.9.9/lib/python3.9/site-packages/pip/_vendor/pyproject_hooks/_in_process/_in_process.py\", line 373, in main\n          json_out[\"return_val\"] = hook(**hook_input[\"kwargs\"])\n        File \"/Users/pappi/.pyenv/versions/3.9.9/lib/python3.9/site-packages/pip/_vendor/pyproject_hooks/_in_process/_in_process.py\", line 143, in get_requires_for_build_wheel\n          return hook(config_settings)\n        File \"/private/var/folders/wx/n8bw917d58x8wznnyynzn8tm0000gn/T/pip-build-env-60efdvfv/overlay/lib/python3.9/site-packages/setuptools/build_meta.py\", line 333, in get_requires_for_build_wheel\n          return self._get_build_requires(config_settings, requirements=[])\n        File \"/private/var/folders/wx/n8bw917d58x8wznnyynzn8tm0000gn/T/pip-build-env-60efdvfv/overlay/lib/python3.9/site-packages/setuptools/build_meta.py\", line 301, in _get_build_requires\n          self.run_setup()\n        File \"/private/var/folders/wx/n8bw917d58x8wznnyynzn8tm0000gn/T/pip-build-env-60efdvfv/overlay/lib/python3.9/site-packages/setuptools/build_meta.py\", line 520, in run_setup\n          super().run_setup(setup_script=setup_script)\n        File \"/private/var/folders/wx/n8bw917d58x8wznnyynzn8tm0000gn/T/pip-build-env-60efdvfv/overlay/lib/python3.9/site-packages/setuptools/build_meta.py\", line 317, in run_setup\n          exec(code, locals())\n        File \"<string>\", line 6, in <module>\n        File \"/Users/pappi/.pyenv/versions/3.9.9/lib/python3.9/codecs.py\", line 905, in open\n          file = builtins.open(filename, mode, buffering)\n      FileNotFoundError: [Errno 2] No such file or directory: '/private/var/folders/wx/n8bw917d58x8wznnyynzn8tm0000gn/T/pip-install-2b4akc92/ast_6fc3f3f9f16a4cdd8cc6f90ca9f00981/AST/README'\n      [end of output]\n  \n  note: This error originates from a subprocess, and is likely not a problem with pip.\n\n[notice] A new release of pip is available: 25.3 -> 26.0.1\n[notice] To update, run: pip install --upgrade pip\nERROR: Failed to build 'ast' when getting requirements to build wheel\n"
+    },
+    "domain_scout": {
+      "path": "/Users/pappi/Desktop/dev/mcp-evolution-core/memory/species/domain_scout.py",
+      "entry_point": "domain_scout",
+      "runtime": "python3",
+      "dependencies": [],
+      "evolved_at": "2026-04-19T08:09:49.320741+00:00",
+      "status": "active",
+      "last_used_at": null,
+      "total_calls": 0,
+      "success_count": 0,
+      "failure_count": 0,
+      "short_description": "Give Darwin a domain name \u2014 it maps all missing skills and queues them for evolution.",
+      "version": 1
     }
   }
 }
