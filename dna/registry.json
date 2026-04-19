@@ -1,6 +1,6 @@
 {
   "organism_version": "1.0.0",
-  "last_mutation": "2026-04-19T06:40:35.029809Z",
+  "last_mutation": "2026-04-19T07:06:06.231332Z",
   "skills": {
     "nestjs_best_practices": {
       "path": "/Users/pappi/Desktop/dev/mcp-evolution-core/memory/species/nestjs_best_practices.py",
@@ -175,6 +175,23 @@
       "failure_count": 0,
       "parent_request": {
         "name": "system_design_analyzer",
+        "requirements": []
+      },
+      "version": 1
+    },
+    "github_issue_classifier": {
+      "path": "/Users/pappi/Desktop/dev/mcp-evolution-core/memory/species/github_issue_classifier.py",
+      "entry_point": "github_issue_classifier",
+      "runtime": "python3",
+      "dependencies": [],
+      "evolved_at": "2026-04-19T07:06:06.231332Z",
+      "status": "active",
+      "last_used_at": null,
+      "total_calls": 0,
+      "success_count": 0,
+      "failure_count": 0,
+      "parent_request": {
+        "name": "github_issue_classifier",
         "requirements": []
       },
       "version": 1
