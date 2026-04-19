@@ -149,6 +149,18 @@
         "requirements": []
       },
       "version": 2
+    },
+    "generate_vitals_dashboard": {
+      "path": "/Users/pappi/Desktop/dev/mcp-evolution-core/memory/species/generate_vitals_dashboard.py",
+      "entry_point": "generate_vitals_dashboard",
+      "runtime": "python3",
+      "dependencies": [],
+      "evolved_at": null,
+      "status": "active",
+      "last_used_at": null,
+      "total_calls": 0,
+      "success_count": 0,
+      "failure_count": 0
     }
   }
 }
