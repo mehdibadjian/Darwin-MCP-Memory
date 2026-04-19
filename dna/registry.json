@@ -1,6 +1,6 @@
 {
   "organism_version": "1.0.0",
-  "last_mutation": "2026-04-19T07:08:08.972369Z",
+  "last_mutation": "2026-04-19T07:59:04.518334Z",
   "skills": {
     "nestjs_best_practices": {
       "path": "/Users/pappi/Desktop/dev/mcp-evolution-core/memory/species/nestjs_best_practices.py",
@@ -244,6 +244,23 @@
       "short_description": "Detect and merge semantically overlapping skills.",
       "parent_request": {
         "name": "skill_optimizer",
+        "requirements": []
+      },
+      "version": 1
+    },
+    "recursive_scout": {
+      "path": "/Users/pappi/Desktop/dev/mcp-evolution-core/memory/species/recursive_scout.py",
+      "entry_point": "recursive_scout",
+      "runtime": "python3",
+      "dependencies": [],
+      "evolved_at": "2026-04-19T07:59:04.518334Z",
+      "status": "active",
+      "last_used_at": "2026-04-19T07:59:04.519910Z",
+      "total_calls": 1,
+      "success_count": 1,
+      "failure_count": 0,
+      "parent_request": {
+        "name": "recursive_scout",
         "requirements": []
       },
       "version": 1
