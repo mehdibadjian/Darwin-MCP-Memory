@@ -1,6 +1,6 @@
 {
   "organism_version": "1.0.0",
-  "last_mutation": "2026-04-19T08:54:41.088923Z",
+  "last_mutation": "2026-04-19T08:55:01.132976Z",
   "skills": {
     "nestjs_best_practices": {
       "path": "/Users/pappi/Desktop/dev/mcp-evolution-core/memory/species/nestjs_best_practices.py",
@@ -368,18 +368,28 @@
       "path": "/Users/pappi/Desktop/dev/mcp-evolution-core/memory/species/owasp_top_10_metrics_exporter.py",
       "entry_point": "owasp_top_10_metrics_exporter",
       "runtime": "python3",
-      "dependencies": [],
-      "evolved_at": "2026-04-19T08:33:48.994775Z",
+      "dependencies": [
+        "hmac",
+        "hashlib",
+        "re",
+        "secrets"
+      ],
+      "evolved_at": "2026-04-19T08:55:01.132976Z",
       "status": "active",
-      "last_used_at": "2026-04-19T08:33:48.996014Z",
+      "last_used_at": "2026-04-19T08:55:01.134213Z",
       "total_calls": 1,
       "success_count": 1,
       "failure_count": 0,
       "parent_request": {
         "name": "owasp_top_10_metrics_exporter",
-        "requirements": []
+        "requirements": [
+          "hmac",
+          "hashlib",
+          "re",
+          "secrets"
+        ]
       },
-      "version": 2
+      "version": 3
     },
     "owasp_top_10_alert_manager": {
       "path": "/Users/pappi/Desktop/dev/mcp-evolution-core/memory/species/owasp_top_10_alert_manager.py",
