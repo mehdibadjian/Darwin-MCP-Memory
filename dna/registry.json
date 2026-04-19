@@ -220,9 +220,9 @@
       "dependencies": [],
       "evolved_at": "2026-04-19T07:08:08.972369Z",
       "status": "active",
-      "last_used_at": null,
-      "total_calls": 0,
-      "success_count": 0,
+      "last_used_at": "2026-04-19T07:08:11.686658Z",
+      "total_calls": 1,
+      "success_count": 1,
       "failure_count": 0,
       "parent_request": {
         "name": "issue_triage_router",
