@@ -1,6 +1,6 @@
 {
   "organism_version": "1.0.0",
-  "last_mutation": "2026-04-19T05:52:46.913755Z",
+  "last_mutation": "2026-04-19T05:59:41.346303Z",
   "skills": {
     "nestjs_best_practices": {
       "path": "/Users/pappi/Desktop/dev/mcp-evolution-core/memory/species/nestjs_best_practices.py",
@@ -129,6 +129,23 @@
       "failure_count": 0,
       "parent_request": {
         "name": "dna_validator",
+        "requirements": []
+      },
+      "version": 1
+    },
+    "scaffold_generator": {
+      "path": "/Users/pappi/Desktop/dev/mcp-evolution-core/memory/species/scaffold_generator.py",
+      "entry_point": "scaffold_generator",
+      "runtime": "python3",
+      "dependencies": [],
+      "evolved_at": "2026-04-19T05:59:41.346303Z",
+      "status": "active",
+      "last_used_at": null,
+      "total_calls": 0,
+      "success_count": 0,
+      "failure_count": 0,
+      "parent_request": {
+        "name": "scaffold_generator",
         "requirements": []
       },
       "version": 1
