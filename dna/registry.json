@@ -1,6 +1,6 @@
 {
   "organism_version": "1.0.0",
-  "last_mutation": "2026-04-19T08:32:46.177151Z",
+  "last_mutation": "2026-04-19T08:33:03.014438Z",
   "skills": {
     "nestjs_best_practices": {
       "path": "/Users/pappi/Desktop/dev/mcp-evolution-core/memory/species/nestjs_best_practices.py",
@@ -435,6 +435,23 @@
       "failure_count": 0,
       "parent_request": {
         "name": "owasp_top_10_workflow_automator",
+        "requirements": []
+      },
+      "version": 1
+    },
+    "owasp_top_10_template_generator": {
+      "path": "/Users/pappi/Desktop/dev/mcp-evolution-core/memory/species/owasp_top_10_template_generator.py",
+      "entry_point": "owasp_top_10_template_generator",
+      "runtime": "python3",
+      "dependencies": [],
+      "evolved_at": "2026-04-19T08:33:03.014438Z",
+      "status": "active",
+      "last_used_at": "2026-04-19T08:33:03.015533Z",
+      "total_calls": 1,
+      "success_count": 1,
+      "failure_count": 0,
+      "parent_request": {
+        "name": "owasp_top_10_template_generator",
         "requirements": []
       },
       "version": 1
