@@ -1,6 +1,6 @@
 {
   "organism_version": "1.0.0",
-  "last_mutation": "2026-04-19T08:55:20.931737Z",
+  "last_mutation": "2026-04-19T08:55:43.694981Z",
   "skills": {
     "nestjs_best_practices": {
       "path": "/Users/pappi/Desktop/dev/mcp-evolution-core/memory/species/nestjs_best_practices.py",
@@ -361,18 +361,28 @@
       "path": "/Users/pappi/Desktop/dev/mcp-evolution-core/memory/species/owasp_top_10_summary_writer.py",
       "entry_point": "owasp_top_10_summary_writer",
       "runtime": "python3",
-      "dependencies": [],
-      "evolved_at": "2026-04-19T08:33:25.494858Z",
+      "dependencies": [
+        "hmac",
+        "hashlib",
+        "re",
+        "secrets"
+      ],
+      "evolved_at": "2026-04-19T08:55:43.694981Z",
       "status": "active",
-      "last_used_at": "2026-04-19T08:33:25.496028Z",
+      "last_used_at": "2026-04-19T08:55:43.696260Z",
       "total_calls": 1,
       "success_count": 1,
       "failure_count": 0,
       "parent_request": {
         "name": "owasp_top_10_summary_writer",
-        "requirements": []
+        "requirements": [
+          "hmac",
+          "hashlib",
+          "re",
+          "secrets"
+        ]
       },
-      "version": 2
+      "version": 3
     },
     "owasp_top_10_metrics_exporter": {
       "path": "/Users/pappi/Desktop/dev/mcp-evolution-core/memory/species/owasp_top_10_metrics_exporter.py",
