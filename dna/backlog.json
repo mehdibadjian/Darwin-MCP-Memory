@@ -1,4 +1,23 @@
 {
   "version": 1,
-  "items": []
+  "items": [
+    {
+      "id": "62cea5fc-ea93-4d6a-8c64-67bbfbd0aa3b",
+      "task_type": "evolve",
+      "payload": {
+        "name": "python_security_scanner",
+        "description": "Analyze all local python files for security vulnerabilities",
+        "requirements": [
+          "bandit",
+          "ast"
+        ]
+      },
+      "priority": 2,
+      "status": "pending",
+      "created_at": "2026-04-19T07:43:55.011517+00:00",
+      "updated_at": "2026-04-19T07:43:55.011517+00:00",
+      "error_count": 0,
+      "last_error": null
+    }
+  ]
 }
