@@ -1,6 +1,6 @@
 {
   "organism_version": "1.0.0",
-  "last_mutation": "2026-04-19T08:55:43.694981Z",
+  "last_mutation": "2026-04-19T08:55:57.823412Z",
   "skills": {
     "nestjs_best_practices": {
       "path": "/Users/pappi/Desktop/dev/mcp-evolution-core/memory/species/nestjs_best_practices.py",
@@ -531,18 +531,28 @@
       "path": "/Users/pappi/Desktop/dev/mcp-evolution-core/memory/species/owasp_top_10_task_tracker.py",
       "entry_point": "owasp_top_10_task_tracker",
       "runtime": "python3",
-      "dependencies": [],
-      "evolved_at": "2026-04-19T08:38:26.012169Z",
+      "dependencies": [
+        "hmac",
+        "hashlib",
+        "re",
+        "secrets"
+      ],
+      "evolved_at": "2026-04-19T08:55:57.823412Z",
       "status": "active",
-      "last_used_at": "2026-04-19T08:38:26.013562Z",
+      "last_used_at": "2026-04-19T08:55:57.824612Z",
       "total_calls": 1,
       "success_count": 1,
       "failure_count": 0,
       "parent_request": {
         "name": "owasp_top_10_task_tracker",
-        "requirements": []
+        "requirements": [
+          "hmac",
+          "hashlib",
+          "re",
+          "secrets"
+        ]
       },
-      "version": 1
+      "version": 2
     },
     "universal_persona_synthesizer": {
       "path": "/Users/pappi/Desktop/dev/mcp-evolution-core/memory/species/universal_persona_synthesizer.py",
