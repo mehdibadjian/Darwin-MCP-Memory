@@ -123,9 +123,9 @@
       "dependencies": [],
       "evolved_at": "2026-04-19T05:52:46.913755Z",
       "status": "active",
-      "last_used_at": null,
-      "total_calls": 0,
-      "success_count": 0,
+      "last_used_at": "2026-04-19T05:52:50.328526Z",
+      "total_calls": 1,
+      "success_count": 1,
       "failure_count": 0,
       "parent_request": {
         "name": "dna_validator",
