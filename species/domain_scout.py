@@ -274,11 +274,12 @@ def domain_scout(params: Dict[str, Any]) -> Dict[str, Any]:
                 item_id = _enqueue(
                     task_type="evolve",
                     payload={
-                        "name":        skill["name"],
-                        "description": skill["description"],
-                        "requirements": [],
-                        "domain":      domain,
-                        "source":      skill.get("source", "unknown"),
+                        "name":                  skill["name"],
+                        "description":           skill["description"],
+                        "requirements":          [],
+                        "domain":                domain,
+                        "source":                skill.get("source", "unknown"),
+                        "skip_similarity_check": True,
                     },
                     priority=priority,
                     backlog_path=_BACKLOG_PATH,
