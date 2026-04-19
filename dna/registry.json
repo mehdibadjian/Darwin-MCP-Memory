@@ -229,6 +229,24 @@
         "requirements": []
       },
       "version": 1
+    },
+    "skill_optimizer": {
+      "path": "/Users/pappi/Desktop/dev/mcp-evolution-core/memory/species/skill_optimizer.py",
+      "entry_point": "skill_optimizer",
+      "runtime": "python3",
+      "dependencies": [],
+      "evolved_at": "2026-04-19T15:16:54.000000Z",
+      "status": "active",
+      "last_used_at": null,
+      "total_calls": 0,
+      "success_count": 0,
+      "failure_count": 0,
+      "short_description": "Detect and merge semantically overlapping skills.",
+      "parent_request": {
+        "name": "skill_optimizer",
+        "requirements": []
+      },
+      "version": 1
     }
   }
 }
