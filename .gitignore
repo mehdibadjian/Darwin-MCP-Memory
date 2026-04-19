@@ -1,4 +1,9 @@
 __pycache__/
 *.pyc
+
 # Registry file lock (runtime artefact — never commit)
 dna/registry.lock
+
+# Runtime logs and heartbeat state (change every beat — not source)
+evolution.log
+heartbeat_status.json
