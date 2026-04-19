@@ -1,6 +1,6 @@
 {
   "organism_version": "1.0.0",
-  "last_mutation": "2026-04-19T08:01:26.459039Z",
+  "last_mutation": "2026-04-19T08:17:23.546763Z",
   "skills": {
     "nestjs_best_practices": {
       "path": "/Users/pappi/Desktop/dev/mcp-evolution-core/memory/species/nestjs_best_practices.py",
@@ -301,6 +301,23 @@
       "success_count": 0,
       "failure_count": 0,
       "short_description": "Give Darwin a domain name \u2014 it maps all missing skills and queues them for evolution.",
+      "version": 1
+    },
+    "owasp_top_10_status_reporter": {
+      "path": "/Users/pappi/Desktop/dev/mcp-evolution-core/memory/species/owasp_top_10_status_reporter.py",
+      "entry_point": "owasp_top_10_status_reporter",
+      "runtime": "python3",
+      "dependencies": [],
+      "evolved_at": "2026-04-19T08:17:23.546763Z",
+      "status": "active",
+      "last_used_at": "2026-04-19T08:17:23.547946Z",
+      "total_calls": 1,
+      "success_count": 1,
+      "failure_count": 0,
+      "parent_request": {
+        "name": "owasp_top_10_status_reporter",
+        "requirements": []
+      },
       "version": 1
     }
   }
