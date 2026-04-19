@@ -1,6 +1,6 @@
 {
   "organism_version": "1.0.0",
-  "last_mutation": "2026-04-19T08:54:01.460784Z",
+  "last_mutation": "2026-04-19T08:54:18.905272Z",
   "skills": {
     "nestjs_best_practices": {
       "path": "/Users/pappi/Desktop/dev/mcp-evolution-core/memory/species/nestjs_best_practices.py",
@@ -403,18 +403,28 @@
       "path": "/Users/pappi/Desktop/dev/mcp-evolution-core/memory/species/owasp_top_10_data_validator.py",
       "entry_point": "owasp_top_10_data_validator",
       "runtime": "python3",
-      "dependencies": [],
-      "evolved_at": "2026-04-19T08:34:22.326141Z",
+      "dependencies": [
+        "hmac",
+        "hashlib",
+        "re",
+        "secrets"
+      ],
+      "evolved_at": "2026-04-19T08:54:18.905272Z",
       "status": "active",
-      "last_used_at": "2026-04-19T08:34:22.328057Z",
+      "last_used_at": "2026-04-19T08:54:18.906732Z",
       "total_calls": 1,
       "success_count": 1,
       "failure_count": 0,
       "parent_request": {
         "name": "owasp_top_10_data_validator",
-        "requirements": []
+        "requirements": [
+          "hmac",
+          "hashlib",
+          "re",
+          "secrets"
+        ]
       },
-      "version": 2
+      "version": 3
     },
     "owasp_top_10_changelog_writer": {
       "path": "/Users/pappi/Desktop/dev/mcp-evolution-core/memory/species/owasp_top_10_changelog_writer.py",
