@@ -7,3 +7,6 @@ dna/registry.lock
 # Runtime logs and heartbeat state (change every beat — not source)
 evolution.log
 heartbeat_status.json
+
+# Backlog is a runtime queue (managed by the heartbeat — not source)
+dna/backlog.json
