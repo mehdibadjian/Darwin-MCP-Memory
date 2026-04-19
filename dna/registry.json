@@ -1,6 +1,6 @@
 {
   "organism_version": "1.0.0",
-  "last_mutation": "2026-04-19T08:34:22.326141Z",
+  "last_mutation": "2026-04-19T08:34:31.959724Z",
   "skills": {
     "nestjs_best_practices": {
       "path": "/Users/pappi/Desktop/dev/mcp-evolution-core/memory/species/nestjs_best_practices.py",
@@ -410,9 +410,9 @@
       "entry_point": "owasp_top_10_changelog_writer",
       "runtime": "python3",
       "dependencies": [],
-      "evolved_at": "2026-04-19T08:20:45.756740Z",
+      "evolved_at": "2026-04-19T08:34:31.959724Z",
       "status": "active",
-      "last_used_at": "2026-04-19T08:20:45.757776Z",
+      "last_used_at": "2026-04-19T08:34:31.960699Z",
       "total_calls": 1,
       "success_count": 1,
       "failure_count": 0,
@@ -420,7 +420,7 @@
         "name": "owasp_top_10_changelog_writer",
         "requirements": []
       },
-      "version": 1
+      "version": 2
     },
     "owasp_top_10_workflow_automator": {
       "path": "/Users/pappi/Desktop/dev/mcp-evolution-core/memory/species/owasp_top_10_workflow_automator.py",
