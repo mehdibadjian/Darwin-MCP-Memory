@@ -235,6 +235,7 @@ def scaffold_generator(
     project_type: str,
     name: str,
     output_dir: Optional[str] = None,
+    dry_run: bool = False,
 ) -> dict:
     """Generate a full-stack project scaffold from a single sentence.
 
@@ -244,14 +245,18 @@ def scaffold_generator(
         name:         Human-readable project name (e.g. ``Personal Finance Dashboard``).
         output_dir:   Absolute or relative path where the scaffold is created.
                       Defaults to ``<cwd>/<name-slug>``.
+        dry_run:      When True, return the full file manifest without writing
+                      anything to disk — the Lysosome mode for safe validation
+                      and CI checks that would otherwise clog the Droplet.
 
     Returns:
         dict with keys:
             status        — "ok" or "error"
+            dry_run       — echoed flag
             project_type  — normalised type used
             name          — original name
-            root          — absolute path to the created project root
-            files_created — list of relative paths written
+            root          — absolute path the scaffold *would* be created at
+            files_created — list of relative paths (written or would-be-written)
             message       — human-readable summary
     """
     norm = project_type.strip().lower().replace(" ", "").replace("-", "").replace("_", "")
@@ -279,6 +284,24 @@ def scaffold_generator(
     else:
         root = Path.cwd() / name_slug
 
+    template = _TEMPLATES[norm]
+    files_manifest: list[str] = sorted(template.keys())
+
+    # --- Lysosome mode: return manifest, touch nothing on disk ---
+    if dry_run:
+        return {
+            "status": "ok",
+            "dry_run": True,
+            "project_type": norm,
+            "name": name,
+            "root": str(root),
+            "files_created": files_manifest,
+            "message": (
+                f"🔬 dry_run: '{name}' ({norm}) would create "
+                f"{len(files_manifest)} files at {root}"
+            ),
+        }
+
     if root.exists():
         return {
             "status": "error",
@@ -286,7 +309,6 @@ def scaffold_generator(
             "root": str(root),
         }
 
-    template = _TEMPLATES[norm]
     files_created: list[str] = []
 
     for rel_path, content in template.items():
@@ -298,6 +320,7 @@ def scaffold_generator(
 
     return {
         "status": "ok",
+        "dry_run": False,
         "project_type": norm,
         "name": name,
         "root": str(root),
