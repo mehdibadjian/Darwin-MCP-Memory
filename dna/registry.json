@@ -1,6 +1,6 @@
 {
   "organism_version": "1.0.0",
-  "last_mutation": "2026-04-19T08:41:58.946206Z",
+  "last_mutation": "2026-04-19T08:53:42.287345Z",
   "skills": {
     "nestjs_best_practices": {
       "path": "/Users/pappi/Desktop/dev/mcp-evolution-core/memory/species/nestjs_best_practices.py",
@@ -375,18 +375,29 @@
       "path": "/Users/pappi/Desktop/dev/mcp-evolution-core/memory/species/owasp_top_10_alert_manager.py",
       "entry_point": "owasp_top_10_alert_manager",
       "runtime": "python3",
-      "dependencies": [],
-      "evolved_at": "2026-04-19T08:34:01.761404Z",
-      "status": "active",
-      "last_used_at": "2026-04-19T08:34:01.762769Z",
+      "dependencies": [
+        "hmac",
+        "hashlib",
+        "re",
+        "secrets"
+      ],
+      "evolved_at": "2026-04-19T08:53:42.287345Z",
+      "status": "rebuild_failed",
+      "last_used_at": "2026-04-19T08:53:43.890712Z",
       "total_calls": 1,
       "success_count": 1,
       "failure_count": 0,
       "parent_request": {
         "name": "owasp_top_10_alert_manager",
-        "requirements": []
+        "requirements": [
+          "hmac",
+          "hashlib",
+          "re",
+          "secrets"
+        ]
       },
-      "version": 2
+      "version": 3,
+      "rebuild_error": "  error: subprocess-exited-with-error\n  \n  \u00d7 Getting requirements to build wheel did not run successfully.\n  \u2502 exit code: 1\n  \u2570\u2500> [19 lines of output]\n      Traceback (most recent call last):\n        File \"/Users/pappi/.pyenv/versions/3.9.9/lib/python3.9/site-packages/pip/_vendor/pyproject_hooks/_in_process/_in_process.py\", line 389, in <module>\n          main()\n        File \"/Users/pappi/.pyenv/versions/3.9.9/lib/python3.9/site-packages/pip/_vendor/pyproject_hooks/_in_process/_in_process.py\", line 373, in main\n          json_out[\"return_val\"] = hook(**hook_input[\"kwargs\"])\n        File \"/Users/pappi/.pyenv/versions/3.9.9/lib/python3.9/site-packages/pip/_vendor/pyproject_hooks/_in_process/_in_process.py\", line 143, in get_requires_for_build_wheel\n          return hook(config_settings)\n        File \"/private/var/folders/wx/n8bw917d58x8wznnyynzn8tm0000gn/T/pip-build-env-8vqozobz/overlay/lib/python3.9/site-packages/setuptools/build_meta.py\", line 333, in get_requires_for_build_wheel\n          return self._get_build_requires(config_settings, requirements=[])\n        File \"/private/var/folders/wx/n8bw917d58x8wznnyynzn8tm0000gn/T/pip-build-env-8vqozobz/overlay/lib/python3.9/site-packages/setuptools/build_meta.py\", line 301, in _get_build_requires\n          self.run_setup()\n        File \"/private/var/folders/wx/n8bw917d58x8wznnyynzn8tm0000gn/T/pip-build-env-8vqozobz/overlay/lib/python3.9/site-packages/setuptools/build_meta.py\", line 520, in run_setup\n          super().run_setup(setup_script=setup_script)\n        File \"/private/var/folders/wx/n8bw917d58x8wznnyynzn8tm0000gn/T/pip-build-env-8vqozobz/overlay/lib/python3.9/site-packages/setuptools/build_meta.py\", line 317, in run_setup\n          exec(code, locals())\n        File \"<string>\", line 6, in <module>\n        File \"/Users/pappi/.pyenv/versions/3.9.9/lib/python3.9/codecs.py\", line 905, in open\n          file = builtins.open(filename, mode, buffering)\n      FileNotFoundError: [Errno 2] No such file or directory: '/private/var/folders/wx/n8bw917d58x8wznnyynzn8tm0000gn/T/pip-install-wtvm44hv/ast_fb38e4bc25224351bc3e14e6f4799bad/AST/README'\n      [end of output]\n  \n  note: This error originates from a subprocess, and is likely not a problem with pip.\n\n[notice] A new release of pip is available: 25.3 -> 26.0.1\n[notice] To update, run: pip install --upgrade pip\nERROR: Failed to build 'ast' when getting requirements to build wheel\n"
     },
     "owasp_top_10_data_validator": {
       "path": "/Users/pappi/Desktop/dev/mcp-evolution-core/memory/species/owasp_top_10_data_validator.py",
@@ -472,6 +483,25 @@
         "requirements": []
       },
       "version": 1
+    },
+    "universal_persona_synthesizer": {
+      "path": "/Users/pappi/Desktop/dev/mcp-evolution-core/memory/species/universal_persona_synthesizer.py",
+      "entry_point": "universal_persona_synthesizer",
+      "runtime": "python3",
+      "dependencies": [],
+      "evolved_at": "2026-04-19T08:53:21.798425Z",
+      "status": "active",
+      "last_used_at": null,
+      "total_calls": 0,
+      "success_count": 0,
+      "failure_count": 0,
+      "version": 1,
+      "short_description": "Synthesizes a domain-expert 3-sentence system prompt for any skill.",
+      "description": "Analyzes skill_name, description, and web_context keywords to select a domain expert persona (Cybersecurity Red-Teamer, CPA, Legal Counsel, Healthcare IT, Platform Engineer, ML Engineer, or default Software Engineer). Returns a 3-sentence system prompt (Persona \u00b7 Vocabulary \u00b7 Standard) used by OllamaClient.generate_body() to produce researcher-grade, industry-standard code instead of generic stubs.",
+      "parent_request": {
+        "name": "universal_persona_synthesizer",
+        "requirements": []
+      }
     }
   }
 }

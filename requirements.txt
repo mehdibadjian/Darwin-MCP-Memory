@@ -3,3 +3,7 @@ numpy
 mylib
 bandit
 ast
+hmac
+hashlib
+re
+secrets
