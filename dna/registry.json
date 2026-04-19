@@ -140,9 +140,9 @@
       "dependencies": [],
       "evolved_at": "2026-04-19T06:03:44.812747Z",
       "status": "active",
-      "last_used_at": null,
-      "total_calls": 0,
-      "success_count": 0,
+      "last_used_at": "2026-04-19T06:03:47.404541Z",
+      "total_calls": 1,
+      "success_count": 1,
       "failure_count": 0,
       "parent_request": {
         "name": "scaffold_generator",
