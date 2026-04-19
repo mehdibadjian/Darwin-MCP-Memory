@@ -1,25 +1,25 @@
 {
-  "beats": 4,
-  "last_beat_at": "2026-04-19T08:00:50.108725+00:00",
+  "beats": 143,
+  "last_beat_at": "2026-04-19T08:04:20.561088+00:00",
   "last_prune_date": "2026-04-19",
-  "anomalies_found": 0,
+  "anomalies_found": 140,
   "last_vitals": {
-    "cpu_percent": 6.8,
-    "memory_percent": 81.8,
+    "cpu_percent": 9.7,
+    "memory_percent": 80.6,
     "cpu_ceiling_evolve": 40.0,
     "cpu_ceiling_medium": 60.0
   },
   "last_report": {
-    "beat_number": 4,
-    "timestamp": "2026-04-19T08:00:50.108725+00:00",
+    "beat_number": 143,
+    "timestamp": "2026-04-19T08:04:20.561088+00:00",
     "vitals": {
-      "cpu_percent": 6.8,
-      "memory_percent": 81.8,
+      "cpu_percent": 9.7,
+      "memory_percent": 80.6,
       "cpu_ceiling_evolve": 40.0,
       "cpu_ceiling_medium": 60.0
     },
     "anomalies_found": 0,
-    "items_dispatched": 0,
+    "items_dispatched": 1,
     "nightly_prune": false,
     "errors": []
   }
