@@ -1,2 +1,4 @@
 __pycache__/
 *.pyc
+# Registry file lock (runtime artefact — never commit)
+dna/registry.lock
