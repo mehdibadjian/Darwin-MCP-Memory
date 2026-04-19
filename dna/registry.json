@@ -9,6 +9,7 @@
       "dependencies": [],
       "evolved_at": "2026-04-18T14:46:43.823285Z",
       "status": "active",
+      "short_description": "Get NestJS architecture best practices.",
       "parent_request": {
         "name": "nestjs_best_practices",
         "requirements": []
@@ -22,6 +23,7 @@
       "dependencies": [],
       "evolved_at": "2026-04-18T14:52:49.755163Z",
       "status": "active",
+      "short_description": "Get FPGA hardware design best practices.",
       "parent_request": {
         "name": "fpga_best_practices",
         "requirements": []
@@ -35,6 +37,7 @@
       "dependencies": [],
       "evolved_at": "2026-04-18T15:00:00.000000Z",
       "status": "active",
+      "short_description": "Query codebase knowledge graph and dependencies.",
       "parent_request": {
         "name": "leankg_knowledge_graph_integration",
         "requirements": []
@@ -62,7 +65,36 @@
         "psutil"
       ],
       "status": "active",
+      "short_description": "Get server CPU, RAM, disk stats.",
       "description": "Returns Droplet CPU, RAM, disk vitals and last 10 evolution log lines"
+    },
+    "brave_search": {
+      "path": "memory/species/brave_search.py",
+      "entry_point": "brave_search",
+      "runtime": "python3",
+      "dependencies": [],
+      "evolved_at": "2026-04-19T12:14:00.000000Z",
+      "status": "active",
+      "short_description": "Search web for real-time facts.",
+      "parent_request": {
+        "name": "brave_search",
+        "requirements": []
+      },
+      "version": 1
+    },
+    "sequential_thinking": {
+      "path": "memory/species/sequential_thinking.py",
+      "entry_point": "sequential_thinking",
+      "runtime": "python3",
+      "dependencies": [],
+      "evolved_at": "2026-04-19T12:14:00.000000Z",
+      "status": "active",
+      "short_description": "Break problem into numbered steps.",
+      "parent_request": {
+        "name": "sequential_thinking",
+        "requirements": []
+      },
+      "version": 1
     }
   }
 }
